@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>My Coding Website</title>
+    <title>Personal Website</title>
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -21,29 +21,43 @@
       <a href="#contact">Contact</a>
     </nav>
 
+    <!-- HOME SECTION -->
     <section id="home">
-      <h1>My Website!</h1>
-
-      <p>Made to learn HTML and CSS!</p>
+      <div class="title-txt">
+        <h1>My Website!</h1>
+      </div>
     </section>
 
-    <section id="about" class="panel">
+    <!-- HOME SECTION -->
+    <section id="about">
       <h2>About Me</h2>
 
-      <p>I make games in Unity(C#) and am learning Python, HTML, CSS, and JS</p>
+      <div class="panel">
+        <p>
+          I make games in Unity(C#) and am learning Python, HTML, CSS, and JS
+        </p>
 
-      <button>Learn More</button>
+        <button>Learn More</button>
+      </div>
     </section>
 
+    <!-- PROJECTS SECTION -->
     <section id="projects">
       <h2>Projects</h2>
 
+      <!--  -->
       <div class="project">
-        <h3>Unity Space Game</h3>
+        <h3>Astro Siege</h3>
 
-        <p>A 3D space game made using Unity</p>
+        <p>A 3D space shooter game made using Unity</p>
 
-        <button>View Project</button>
+        <a href="projects/astro-siege.html">
+          <button>More Info</button>
+        </a>
+
+        <a href="https://starcoder.itch.io/astro-siege" target="_blank">
+          <button>View Project</button>
+        </a>
       </div>
 
       <div class="project">
@@ -55,14 +69,19 @@
       </div>
     </section>
 
-    <section id="contact" class="panel">
+    <!-- CONTACT SECTION -->
+    <section id="contact">
       <h2>Contact</h2>
 
-      <p>Email: stargamer.coder@gmail.com</p>
+      <div class="panel">
+        <p>Email: stargamer.coder@gmail.com</p>
 
-      <button>Contact Me</button>
+        <button>Contact Me</button>
+      </div>
     </section>
 
     <section id="contact"></section>
+
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
